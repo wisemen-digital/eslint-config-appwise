@@ -9,7 +9,10 @@
     },
     "extends": [
         "appwise"
-    ]
+    ],
+    "parserOptions": {
+        "project": "tsconfig.json"
+    }
 }
 ```
 
