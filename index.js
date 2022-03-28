@@ -2,14 +2,13 @@ module.exports = {
   "extends": [
     "standard-with-typescript",
     "plugin:@typescript-eslint/recommended",
-    "plugin:import/typescript",
-    "plugin:import/recommended"
+    "plugin:import/recommended",
+    "plugin:import/typescript"
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest",
-    "sourceType": "module",
-    "project": "tsconfig.json"
+    "sourceType": "module"
   },
   "plugins": [
     "@typescript-eslint",
