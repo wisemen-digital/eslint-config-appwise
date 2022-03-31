@@ -12,9 +12,6 @@
     ],
     "parserOptions": {
         "project": "tsconfig.json"
-    },
-    "rules": {
-        "@typescript-eslint/strict-boolean-expressions": "error"
     }
 }
 ```

@@ -17,7 +17,8 @@ module.exports = {
     "putout"
   ],
   "rules": {
-    "@typescript-eslint/strict-boolean-expressions": "off",
+    "no-console": "warn",
+    "@typescript-eslint/strict-boolean-expressions": "on",
     "@typescript-eslint/no-extraneous-class":"off",
     "@typescript-eslint/indent": [
       "error",
@@ -55,6 +56,6 @@ module.exports = {
     "putout/remove-empty-newline-before-first-specifier": "error",
     "putout/remove-newline-from-empty-object": "error",
     "putout/add-newline-before-function-call": "error",
-    "putout/add-newline-after-function-call": "error"
+    "putout/add-newline-after-function-call": "error",
   }
 };
