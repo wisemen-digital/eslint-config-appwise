@@ -18,7 +18,7 @@ module.exports = {
   ],
   "rules": {
     "no-console": "warn",
-    "@typescript-eslint/strict-boolean-expressions": "on",
+    "@typescript-eslint/strict-boolean-expressions": "error",
     "@typescript-eslint/no-extraneous-class":"off",
     "@typescript-eslint/indent": [
       "error",
