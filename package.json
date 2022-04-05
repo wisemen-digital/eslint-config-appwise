@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-appwise",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "ESLint Config for Appwise",
   "main": "index.js",
   "author": "Appwise",

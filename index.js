@@ -18,6 +18,17 @@ module.exports = {
   ],
   "rules": {
     "no-console": "warn",
+    "max-len": [
+      "error",
+      {
+          "code": 100,
+          "comments": 100,
+          "ignoreUrls": true,
+          "ignoreStrings": true,
+          "ignoreRegExpLiterals": true,
+          "ignoreTemplateLiterals": true
+      }
+  ],
     "@typescript-eslint/strict-boolean-expressions": "error",
     "@typescript-eslint/no-extraneous-class":"off",
     "@typescript-eslint/indent": [

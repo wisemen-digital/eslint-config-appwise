@@ -34,7 +34,12 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "paths": {
+      "*": [
+        "./types/*.d.ts"
+      ]
+    }
   },
   "include": [
     "src/**/*",
