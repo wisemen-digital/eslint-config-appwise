@@ -68,5 +68,11 @@ module.exports = {
     "putout/remove-newline-from-empty-object": "error",
     "putout/add-newline-before-function-call": "error",
     "putout/add-newline-after-function-call": "error",
+    "curly": [
+      "error", "multi-or-nest"
+    ],
+    "nonblock-statement-body-position": [
+      "error", "beside"
+    ],
   }
 };
