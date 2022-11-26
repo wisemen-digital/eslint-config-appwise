@@ -74,5 +74,10 @@ module.exports = {
     "nonblock-statement-body-position": [
       "error", "beside"
     ],
+    "@typescript-eslint/naming-convention": [
+      "error",
+      { "selector": "interface", "format": ["PascalCase"] },
+      { "selector": "class", "format": ["PascalCase" ]}
+    ]
   }
 };
