@@ -69,7 +69,7 @@ module.exports = {
     "putout/add-newline-before-function-call": "error",
     "putout/add-newline-after-function-call": "error",
     "curly": [
-      "error", "multi-or-nest"
+      "error", "multi-line"
     ],
     "nonblock-statement-body-position": [
       "error", "beside"
