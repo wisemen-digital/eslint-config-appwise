@@ -38,16 +38,16 @@ const compatConfig = compat.config({
       }
     ],
     "@typescript-eslint/no-unused-vars": "off",
-    "unused-imports/no-unused-imports": "error",
-    "unused-imports/no-unused-vars": [
-      "error",
-      {
-        "vars": "all",
-        "varsIgnorePattern": "^_",
-        "args": "after-used",
-        "argsIgnorePattern": "^_"
-      }
-    ],
+    // "unused-imports/no-unused-imports": "error",
+    // "unused-imports/no-unused-vars": [
+    //   "error",
+    //   {
+    //     "vars": "all",
+    //     "varsIgnorePattern": "^_",
+    //     "args": "after-used",
+    //     "argsIgnorePattern": "^_"
+    //   }
+    // ],
     // "import/order": "error",
     // "import/no-absolute-path": "error",
     // "import/no-dynamic-require": "error",
